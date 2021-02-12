@@ -1,6 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+
+
 *{
 
 margin: 0;
 padding: 0;
 
+
+}
+
+body{
+    font-family: 'Arimo', sans-serif;
+}
+h1{font-size: 50px;}
+h3{ color: coral;}
+.topbanner{
+
+    background-image: url(images/picture/top-banner.png);
+    background-repeat: no-repeat;
+}
+.orange-highlight{
+    color:tomato;
+}
+
+    
+   
+.half-width{
+
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    background-color: white;
+    
+}
+p{
+    color: rgb(161, 160, 160);
+}
+.half-width img{
+    width: 100%;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+.link-button{
+    text-decoration: none;
+    border: .5px solid tomato;
+    padding: 5px 15px;
+    background: #df9e4e;
+    color: white;
+    border-radius: 5px;
+}
+.link-button:hover{
+
+    background:#a12525;
+    color:#b0b7be
+}
+.dream-area{
+
+    background-image: url(images/picture/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.sha-dow{
+
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+}
+.expereance{
+
+    background-image: url(images/picture/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#senior{
+
+    border-left: 7px solid rgb(207, 165, 27);
+    
+    
+}
+#junior{
+
+    border-left: 7px solid rgb(177, 96, 20);
+
+
+}
+footer{
+    text-align: center;
+    width: 100%;
+    background: rgb(10, 10, 10);
 }
